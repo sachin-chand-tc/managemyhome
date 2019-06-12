@@ -1,0 +1,17 @@
+{
+  "name": "housekeeping",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node backend/index.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongodb": "^3.1.0",
+    "mongoose": "^5.3.16",
+    "validator": "^10.11.0"
+  }
+}
