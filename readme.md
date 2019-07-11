@@ -1,16 +1,13 @@
-##Run Backend
+## Run Backend
 
-`cd udaan`
-`npm install`
 `npm run dev`
 
-##Run Frontend (from directory)
+## Run Frontend (from directory)
 
-`cd client`
-`npm install`
 `npm start`
 
-##Run Database Server (mongodb)
+## Run Database Server (mongodb) 
+Not needed as updated to atlas mongo
 
 `/home/crownedlake/mongodb/bin/mongod --dbpath=/home/crownedlake/mongodb-data`
 
@@ -20,9 +17,9 @@ here "crownedlake" is the current system (linux) user and `/home/crownedlake/mon
  #Default PORTS
  backend - 8000
  frontend - 3000
- mongodb - 27017
+ mongodb - 27017 (Upgraded to Atlas)
  
  make sure you are running in these ports 
 
- #Testing
- I have tested all the apis with postman (screenshot atttached)
+ # Testing
+Mannual Api testing is done
